@@ -1,0 +1,130 @@
+.controlsbx{
+    .spacerx{
+        height:20px;
+    }
+    .flexbx{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .lftbx{
+            color:#BDBDBD;
+            font-size: 20px;
+        }
+        .rghtbx{
+            .controltabs{
+                display: flex;
+                align-items: center ;
+                background: rgba(217, 217, 217, 0.26);
+                border-radius: 44px;
+                overflow: hidden;
+                .tbs{
+                    padding:5px 26px;
+                    &.active{
+                        background: #fff;
+                        color: #000;
+                    }
+                }
+            }
+            .animatedisplay{
+                color: #fff;
+                font-size: 18px;
+                .coloured{
+                    color: #A1FFD2;
+                }
+            }
+            &.chromaboxes{
+                display: flex;
+                align-items: center;
+                .text{font-size: 18px;}
+                .circleboxes{
+                    display: flex;
+                    cursor: pointer;
+                    align-items: center;
+                    .circleboxOuter{
+                        border-radius: 50%;
+                       background: rgba(255,255,255,0.1);
+                        width:30px;
+                        height:30px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-left: 10px;
+                        .circleboxinner{
+                            background: transparent;
+                            border-radius: 50%;
+                            width:15px;
+                            height:15px;
+                        }
+                        &.Tropicana{
+                            border:2px solid #F1BC33;;
+                        }
+                        &.Neonfruit{
+                            border:2px solid #69FF34;
+                        }
+                        &.Zest{
+                            border:2px solid #FF347D;
+                        }
+                        &.Waterfall{
+                            border:2px solid #34CEFF;
+                        }
+                    }
+                }
+                &.Tropicana{
+                    .text{
+                        color: #F1BC33;
+                    }
+                    .Tropicana{
+                        .circleboxinner{
+                            background: #F1BC33;;
+                        }
+                    }
+                }
+                &.Neonfruit{
+                    .text{
+                        color: #69FF34;
+                    }
+                    .Neonfruit{
+                        .circleboxinner{
+                            background: #69FF34;;
+                        }
+                    }
+                }
+                &.Zest{
+                    .text{
+                        color: #FF347D;
+                    }
+                    .Zest{
+                        .circleboxinner{
+                            background: #FF347D;;
+                        }
+                    }
+                }
+                &.Waterfall{
+                    .text{
+                        color: #34CEFF;
+                    }
+                    .Waterfall{
+                        .circleboxinner{
+                            background: #34CEFF;;
+                        }
+                    }
+                }
+            }
+        }
+        &.flex2{
+            .tbs{
+                padding:5px 18px !important;
+            }
+        }
+    }
+    .mintbutton{
+        background-color: #ADFFD8;
+        color:#121212;
+        padding: 10px 36px;
+        font-size: 24px;
+        border-radius: 14px;
+        width: 100%;
+        max-width: 300px;
+        margin-top: 20px;
+    }
+}
