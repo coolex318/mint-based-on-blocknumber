@@ -1,0 +1,41 @@
+.panel {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.box {
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
+
+.panelIndex {
+  margin-right: 10px;
+}
+
+.generatorContainer {
+  color: white;
+  background-color: transparent;
+  width: 100%;
+}
+
+.SketchCanvas {
+  margin: 10px;
+}
+
+input {
+  color: black;
+}
+
+hr {
+  margin: 10px;
+}
+
+.colorSelector {
+  width: 200px;
+  color: black;
+}
+
+canvas {
+  width: 100% !important;
+}
