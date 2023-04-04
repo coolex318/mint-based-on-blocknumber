@@ -127,4 +127,16 @@
         max-width: 300px;
         margin-top: 20px;
     }
+    &.greyedout{
+        // opacity: 0.26;
+        .tbs, .animatedisplay{
+            color:#121212 !important
+        }
+        .mintbutton{
+            background: rgba(217, 217, 217, 0.26) !important;
+        }
+        .circleboxOuter{
+            border-color: rgba(217, 217, 217, 0.26) !important;
+        }
+    }
 }
